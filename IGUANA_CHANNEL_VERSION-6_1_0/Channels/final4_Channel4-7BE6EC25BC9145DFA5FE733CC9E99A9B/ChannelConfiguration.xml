@@ -1,0 +1,19 @@
+<channel
+   name="final4_Channel4"
+   guid="7BE6EC25BC9145DFA5FE733CC9E99A9B"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="final4_Channel4-To-sLnlr0t25vnGMf"
+      commit_id="0d3c5d6de54cdb4e27f39e9b60826599a0c7277c"
+      commit_comment="new">
+      <dequeue_list>
+         <dequeue
+            source_name="final4_Channel1"
+            dequeue_guid="4BEDDE0F38B6E7BA2F6F13599B6A0760"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>

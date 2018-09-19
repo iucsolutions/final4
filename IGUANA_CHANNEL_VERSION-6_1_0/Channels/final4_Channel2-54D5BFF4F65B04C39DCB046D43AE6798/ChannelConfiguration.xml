@@ -1,0 +1,22 @@
+<channel
+   name="final4_Channel2"
+   guid="54D5BFF4F65B04C39DCB046D43AE6798"
+   description=""
+   start_automatically="false"
+   logging_level="1"
+   use_message_filter="false">
+   <to_mapper
+      guid="final4_Channel2-To-hxc5ttlaVEK8xE"
+      commit_id="67dad738825719852afe5b2e40342a2864530b8d"
+      commit_comment="new">
+      <dequeue_list>
+         <dequeue
+            source_name="TemplateChannel1"
+            dequeue_guid="5C82CC71FFD4EB4CBD8036734038F57D"/>
+         <dequeue
+            source_name="final4_Channel1"
+            dequeue_guid="7E7C8F34602745134B47147A7DD81DF2"/>
+      </dequeue_list>
+   </to_mapper>
+   <from_channel/>
+</channel>
