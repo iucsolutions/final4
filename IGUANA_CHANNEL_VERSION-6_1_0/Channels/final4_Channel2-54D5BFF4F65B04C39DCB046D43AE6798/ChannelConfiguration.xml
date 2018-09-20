@@ -7,12 +7,9 @@
    use_message_filter="false">
    <to_mapper
       guid="final4_Channel2-To-hxc5ttlaVEK8xE"
-      commit_id="67dad738825719852afe5b2e40342a2864530b8d"
-      commit_comment="new">
+      commit_id="65e8b22450f6085208363c3ac64169b01bea321c"
+      commit_comment="changed config file">
       <dequeue_list>
-         <dequeue
-            source_name="TemplateChannel1"
-            dequeue_guid="5C82CC71FFD4EB4CBD8036734038F57D"/>
          <dequeue
             source_name="final4_Channel1"
             dequeue_guid="7E7C8F34602745134B47147A7DD81DF2"/>

@@ -6,7 +6,7 @@
    logging_level="2"
    use_message_filter="true">
    <to_file
-      output_dir="${destDirGROUPNAME}/"
+      output_dir="${destDirfinal4}/"
       write_to_separate_file="true"
       output_single_filename=""
       use_prepended_info_as_filename="false"
@@ -15,9 +15,9 @@
       temp_file_extension="tmp"
       count_of_padding_digit="5"
       ftp_server="ec2-184-72-202-147.compute-1.amazonaws.com"
-      ftp_username="GROUPNAME"
-      ftp_password="4Kp/jDu9n9qKHY6nAxvV/7BLHIBCCvYem9u0ZVMYhTE="
-      ftp_path="${ftpPathGROUPNAME}"
+      ftp_username="final4"
+      ftp_password="70umLXBUPC96lKUwOOX+8Q=="
+      ftp_path="${ftpPathfinal4}"
       ftp_max_reconnect="5"
       sftp_authentication_method="user_password"
       use_ftp="true">
@@ -39,7 +39,7 @@
       error_handling="0"
       use_translator_filter="true"
       translator_guid="final4_Channel3-Filter-TyoGWCKUYpgozQ"
-      translator_commit_id="4200dfcaded34b8fac1e7369ae42f40ff79bcf3f"
-      translator_commit_comment="Import Translators: final 4">
+      translator_commit_id="cde1555ef71fad363342e993a06f6b46ff366e27"
+      translator_commit_comment="Import Translators: imp final4">
    </message_filter>
 </channel>
